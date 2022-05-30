@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+}
+
+
+.el_color{
+    background-color: #212031;
+}
+.cabecera{
+
+    border-radius: 30px;
+    border:2px solid cyan;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera span{
+    font-weight: bold;
+    color: white;
+    }
+
+
+.cabecera img{
+    
+    height: 10ex;
+    border-radius: 50px;
+}
+
+#img_usuario{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.BarraBusq{
+    display:flex ;
+    background-color:darkgrey;
+    height: 50px;
+    width:30em;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: flex-end;
+    
+}
+
+.BarraBusq span{
+   margin-right: 10px; 
+}
+
+.BarrBus_Carr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.BarrBus_Carr img{
+    height: 50%;
+    border-radius: 50px;
+}
