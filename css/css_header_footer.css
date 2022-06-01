@@ -87,3 +87,69 @@ footer div span{
     display: block;
     color: white;
 }
+
+
+.division{
+    margin-top: 50px;
+}
+
+.Vaflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section h3{
+    color: white;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.carrousel1{
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+.carrousel1 a img{
+    height: 280px;
+    width: 200px;
+}
+.carrousel1 a img:hover{
+    border: 5px solid seagreen;
+}
+
+.carrousel2 {
+    width: 95%;
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden;
+}
+.carrousel2 a img {
+    height: 280px;
+    width: 550px;
+}
+
+.carrousel2 a img:hover {
+    border: 5px solid seagreen;
+}
+
+.marcobutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.marcobutton button{
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+.marcobutton button:hover{
+    height: 50px;
+    width: 210px;
+    font-size:medium;
+    color: azure;
+}
