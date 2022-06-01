@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+.BackColor{
+    background: #1A1D28;
+    
+}
+
+.Middle{
+    margin-top:5%;
+    background-color: #1A1D28;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding-top: 1%;
+}
+
+.Image{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin-right: 300px;
+}
+
+.BackSection{
+    padding-bottom: 7px;
+    padding-left: 50px;
+    padding-right: 100px;
+    background-color: #24293E;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.LabelT{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Libre Franklin';
+    font-style: oblique;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 112%;
+    color: #40D64F;
+}
+
+.Label1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 112%;
+    color: #40D63F;
+}
+
+.recursos{
+    padding-top: 10px;
+    padding-left: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.Label{
+    width: 312px;
+    height: 73px;
+    left: 689px;
+    top: 690px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 112%;
+    color: #6CDA77;
+}
+
+.Link1{
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 112%;
+    text-decoration-line: underline;
+    color: #6CDA77;
+    margin-top: 5%;
+}
+
+.Link{
+    width: 312px;
+    height: 73px;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #6CDA77;
+}
+
+.Link:hover{
+    color: #BBDB97;
+}
+
+.Link1:hover{
+    color: #BBDB97;
+}
+
+.TextBox.Placeholder{
+    font-size: 30px;
+}
+
+.Textbox{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border: 4px solid #26852F;
+    background-color: #24293E;
+    width: 332px;
+    height: 80px;
+}
+
+.Textbox2{
+    border: 5px solid #26852F;
+    background-color: #24293E;
+    width: 332px;
+    height: 80px;
+}
+
+.ButtonIn{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #BBDB97;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    border-style: none;
+    width: 276px;
+    height: 84px;
+    border-radius: 10px;
+}
+
+.ButtonI{
+    border: 9px solid #398941;
+    border-radius: 7px;
+    background-color: #24293E;
+    width: 40px;
+    height: 35px;
+}
+
+.ButtonI:hover{
+    border: 9px solid #BBDB97;
+}
