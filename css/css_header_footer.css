@@ -2,13 +2,9 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.flex{
-    display: flex;
-}
-
 
 .el_color{
-    background-color: #212031;
+    background-color: #1A1D28;
 }
 .cabecera{
 
@@ -62,4 +58,32 @@
 .BarrBus_Carr img{
     height: 50%;
     border-radius: 50px;
+}
+
+footer{
+    display: flex;
+    background-color:#231D1D;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 1%;
+}
+
+footer div h4{
+    color: white;
+    font-weight: bold;
+}
+
+footer div a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+footer div a:hover{
+    color: cyan;
+}
+
+footer div span{
+    display: block;
+    color: white;
 }
