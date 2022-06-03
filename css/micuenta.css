@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex{
+    display: flex;
+}
+
+
+.el_color{
+    background-color: #212031;
+}
+.cabecera{
+
+    border-radius: 30px;
+    border:2px solid cyan;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecera span{
+    font-weight: bold;
+    color: white;
+    }
+
+
+.cabecera img{
+    
+    height: 10ex;
+    border-radius: 50px;
+}
+
+#img_usuario{
+    height:70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.BarraBusq{
+    display:flex ;
+    background-color:darkgrey;
+    height: 50px;
+    width:30em;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: flex-end;
+    
+}
+
+.BarraBusq span{
+   margin-right: 10px; 
+}
+
+.BarrBus_Carr{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.BarrBus_Carr img{
+    height: 50%;
+    border-radius: 50px;
+}
+
+#img_micuenta{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    width: 239px;
+    height: 239px;
+
+}
+
+.Opciones{
+    list-style: none;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
+.Fila1{
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cuadro1{
+    background: none;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+    color: aliceblue;
+}
+
+.cuadro2{
+    background: none;
+    
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+    color: aliceblue;
+}
+.cuadro3{
+    background: none;
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+}
+.Fila2{
+    padding: 2.5%;
+    display: flex;
+    justify-content: space-around;
+}
+.cuadro4{
+    background: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+    color: aliceblue;
+}
+.cuadro5{
+    background: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+    color: aliceblue;
+}
+
+.cuadro6{
+    background: none;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    width: 200px;
+    height: 50px;
+    border: 4px solid #87b992;
+    color: aliceblue;
+}
+
+
+footer{
+    display: flex;
+    background-color:#231D1D;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 1%;
+}
+
+footer div h4{
+    color: white;
+    font-weight: bold;
+}
+
+footer div a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+footer div a:hover{
+    color: cyan;
+}
+
+footer div span{
+    display: block;
+    color: white;
+}
+
+input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+
+    
