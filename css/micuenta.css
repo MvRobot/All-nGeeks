@@ -10,24 +10,28 @@
 .el_color{
     background-color: #212031;
 }
-.cabecera{
+.cabecera {
 
     border-radius: 30px;
-    border:2px solid cyan;
+    border: 2px solid cyan;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecera span{
+.cabecera a {
     font-weight: bold;
     color: white;
-    }
+    text-decoration: none;
+}
 
+.cabecera a:hover {
+    color: cyan;
+}
 
-.cabecera img{
-    
+.cabecera img {
+
     height: 10ex;
     border-radius: 50px;
 }

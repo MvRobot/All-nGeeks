@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/forma de pago.css">
+</head>
+<body>
+<form onclick="history.go(-1)">
+    <div class="arrow boton-atras">
+            <img src="img/arrow.png" alt="" width="60px">
+             <img src="img/logo-AllnGeeks.PNG" class="ddd" alt="" width="60px">
+    </div>
+</form>
+<div class="pgo">
+    <div id="carrito-item"> <!--division izquierda-->
+        <h2>Opciones de forma de pago</h2>
+        <h3>Selecciona tu forma de pago</h3>
+        <div class="item-credito"> <!--recuadro del item-->
+            <div class="credito">
+              <input type="radio" name="forma de pago" value="tarjeta de credito"><img src="img/credito.png" alt=""> Tarjeta de Credito <br>
+            </div>
+        </div>
+        <div class="item-credito"> <!--recuadro del item-->
+            <div class="credito">
+              <input type="radio" name="forma de pago" value="paypal"> <img src="img/paypal.png" alt=""> PayPal <br>
+            </div>
+        </div>
+        <div class="item-credito"> <!--recuadro del item-->
+            <div class="credito">
+              <input type="radio" name="forma de pago" value="saldo de cuenta"> <img src="img/saldo.png" alt=""> Saldo de Cuenta<br>
+            </div>
+        </div>
+    </div>
+
+    <aside>
+        <div>
+            <h2>Detalles de Pago</h2>
+            <section class="detalles-pago">
+                <ul>
+                    <li>Precio</li>
+                    <li>Descuento</li>
+                    <li>I.T.B.M.S</li>
+                    <li>Descuento de Cupon</li>
+                    <li>Delivery</li>
+                    <li>Total</li>
+                </ul>
+                <ul>
+                    <li>$69.00</li>
+                    <li>$0.00</li>
+                    <li>$0.69</li>
+                    <li>$0.00</li>
+                    <li>$0.00</li>
+                    <li>$69.69</li>
+                </ul>
+            </section>
+        <a href="pagado.html"><button type="submit" class="boton">Ordenar</button>
+        </a></div>        
+    </aside>
+</div>
+</body>
+</html>

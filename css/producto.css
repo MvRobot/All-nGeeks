@@ -9,23 +9,28 @@
 }
 
 /*---------------Header----------*/
-.cabecera{
+.cabecera {
 
     border-radius: 30px;
-    border:2px solid cyan;
+    border: 2px solid cyan;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecera span{
+.cabecera a {
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
-.cabecera img{
-    
+.cabecera a:hover {
+    color: cyan;
+}
+
+.cabecera img {
+
     height: 10ex;
     border-radius: 50px;
 }
@@ -166,7 +171,12 @@ nav a:hover{
     margin-top: 1%;
     margin-bottom: 1%;
 }
-
+.btn-compra{
+    text-decoration: none;
+}
+.noline{
+    text-decoration: none;
+}
 .btn-compra:hover{
     font-weight: 400;
 }

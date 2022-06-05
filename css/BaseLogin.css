@@ -35,15 +35,14 @@
     padding-top: 10px;
 }
 
-.LabelT{
-    margin-top: 20px;
-    margin-bottom: 10px;
+.LabelT {
+    margin-left: 30%;
     font-family: 'Libre Franklin';
     font-style: oblique;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 800;
     line-height: 112%;
-    color: #40D64F;
+    color: #FFFFFF;
 }
 
 .Label1{
@@ -52,7 +51,7 @@
     font-weight: 800;
     font-size: 24px;
     line-height: 112%;
-    color: #40D63F;
+    color: #FFFFFF;
 }
 
 .recursos{
@@ -72,7 +71,7 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 112%;
-    color: #6CDA77;
+    color: #FFFFFF;
 }
 
 .Link1{
@@ -82,7 +81,7 @@
     font-size: 20px;
     line-height: 112%;
     text-decoration-line: underline;
-    color: #6CDA77;
+    color: #FFFFFF;
     margin-top: 5%;
 }
 
@@ -94,7 +93,7 @@
     font-weight: 700;
     font-size: 24px;
     text-decoration-line: underline;
-    color: #6CDA77;
+    color: #FFFFFF;
 }
 
 .Link:hover{
@@ -112,14 +111,14 @@
 .Textbox{
     margin-top: 5%;
     margin-bottom: 10%;
-    border: 4px solid #26852F;
+    border: 1px solid #FFFFFF;
     background-color: #24293E;
     width: 332px;
     height: 80px;
 }
 
 .Textbox2{
-    border: 5px solid #26852F;
+    border: 1px solid #FFFFFF;
     background-color: #24293E;
     width: 332px;
     height: 80px;
@@ -128,7 +127,8 @@
 .ButtonIn{
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: #BBDB97;
+    background-color: #457C88;
+    color: #FFFFFF;
     font-family: 'Libre Franklin';
     font-style: normal;
     font-weight: 400;
@@ -139,8 +139,14 @@
     border-radius: 10px;
 }
 
+.ButtonIn:hover {
+    color: #457C88;
+    background-color: #FFFFFF;
+}
+
+
 .ButtonI{
-    border: 9px solid #398941;
+    border: 5px solid #457C88;
     border-radius: 7px;
     background-color: #24293E;
     width: 40px;
@@ -148,5 +154,11 @@
 }
 
 .ButtonI:hover{
-    border: 9px solid #BBDB97;
+    border: 6px solid #FFFFFF;
+}
+
+.ultim{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
 }

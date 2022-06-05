@@ -14,23 +14,28 @@ body{
 }
 
 /*---------------Header----------*/
-.cabecera{
+.cabecera {
 
     border-radius: 30px;
-    border:2px solid cyan;
+    border: 2px solid cyan;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.cabecera span{
+.cabecera a {
     font-weight: bold;
     color: white;
+    text-decoration: none;
 }
 
-.cabecera img{
-    
+.cabecera a:hover {
+    color: cyan;
+}
+
+.cabecera img {
+
     height: 10ex;
     border-radius: 50px;
 }
@@ -40,21 +45,20 @@ body{
     width: 70px;
     border-radius: 50%;
 }
-.BarraBusq{
+.BarraBusq {
     display: flex;
-    background-color:darkgrey;
+    background-color: darkgrey;
     height: 50px;
-    width:30%;
-    border-radius: 30px;    
-    font-size: 20px;
-    padding-left: 1%;
-    padding-right: 1%;
+    width: 30em;
+    align-items: center;
+    border-radius: 30px;
     justify-content: flex-end;
+
 }
 
-.BarraBusq span{
-    margin-right: 10px; 
- }
+.BarraBusq span {
+    margin-right: 10px;
+}
 
 
 .BarrBus_Carr{
@@ -73,6 +77,9 @@ body{
 /*-------------body------------*/
 .boton-atras{
     height: 50px;
+}
+.boton-atras :hover{
+    height: 60px;
 }
 
 .acerca_de{

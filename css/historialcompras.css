@@ -1,0 +1,95 @@
+body{
+    box-sizing: border-box;
+    background-color: #1a1d28;
+
+}
+
+
+.arrow{
+    list-style: none;
+}
+#carrito-item{
+    margin-top: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.item-agregado{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    background-color: #24293E;
+    border: #26852f 3px solid;
+    
+}
+.item-imagen{
+    width: 45%;
+}
+
+.item-version{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.item-precio{
+    margin-left: auto;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-ps4{
+    width: 100px;
+}
+
+.item-reembolso *{
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    background: #6aff67;
+    width: 1201px;
+}
+.lista-info{
+    line-height: 50px;
+}
+
+.item-reembolso button:hover{
+    background-color: #26852f;
+
+}
+.item-agregado1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    background-color: #24293E;
+    border: #26852f 3px solid;
+    
+}
+.item-imagen1{
+    width: 45%;
+}
+
+.item-version1{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.item-precio1{
+    margin-left: auto;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item-ps41{
+    width: 100px;
+}
+.lista-info1{
+    line-height: 50px;
+}
+div ul li{
+    list-style: none;
+    
+}

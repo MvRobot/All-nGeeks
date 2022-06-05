@@ -16,11 +16,14 @@
     align-items: center;
 }
 
-.cabecera span{
+.cabecera a{
     font-weight: bold;
     color: white;
-    }
-
+    text-decoration: none;
+}
+.cabecera a:hover{
+    color: cyan;
+}
 
 .cabecera img{
     

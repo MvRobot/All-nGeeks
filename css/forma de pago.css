@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    background-color: #1a1d28;
+
+}
+
+.arrow{
+    display: flex;
+}
+#carrito-item{
+    margin-top: 100px;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
+.item-credito{
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    border: #26852f 3px solid;
+    height: 100px;
+    
+}
+.boton-atras {
+    height: 50px;
+}
+
+.boton-atras :hover {
+    height: 60px;
+}
+.ddd{
+    border-radius: 100px;
+}
+
+.pgo{
+display: flex;
+}
+
+.credito{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: xx-large;
+    margin-top: 20px;
+    
+}
+.credito img{
+    margin-bottom: 20px;
+}
+.credito input {
+    height: 30px;
+}
+.credito input[type=radio]{
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+div ul li{
+    list-style: none;
+    
+}
+.division{
+    margin-left: 90px;
+    width: 0.5px;
+    height: 800px;
+    background-color: #26852f;
+    color: #26852F;
+}
+aside {
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    
+}
+
+aside li{
+    line-height: 50px;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.detalles-pago{
+    display: flex;
+}
+.boton{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+    background-color: #6aff67;
+
+}
+button:hover{
+    background-color: aquamarine;
+}
